@@ -1,0 +1,114 @@
+ *{
+    margin: 0;
+    padding: 0;
+}  
+body{
+    background-image:url('./cows6.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255,0,5);
+}
+
+ 
+.total{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+    color: #000;
+}
+ul{
+    align-items: center;
+    display: flex;
+    justify-content:space-evenly;
+}
+.types{
+    width: 60%;
+}
+li{
+    list-style: none;
+}
+img{
+    height: 45px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.mylogo{
+    padding-left: 0;
+}
+a:hover{
+    color: rgb(247, 8, 56);
+    font-size:larger;
+}
+.profilelogo:hover{
+    font-size: larger;
+}
+.cartlogo:hover{
+    font-size: larger;
+}
+form{
+    background-color:rgba(255, 255, 255,);
+    
+    border-radius: 10px;
+    border: 5px solid white;
+    box-shadow: 0,0,10px,black;
+    padding: 40px;
+    margin: 100px;
+    margin-top: 80px;
+    width: 500px; 
+    align-items: center;
+    
+
+}
+.tact{
+        
+        width: 100%;
+        height: 300px;
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 40px;
+        
+    }
+    footer{
+        width: 100vw;
+        background-color: antiquewhite;
+       
+    }
+.info{
+    background-color:rgba(255, 255, 255,0.5);
+    width: 100%;
+    height: 250px;
+    position: relative;
+    top: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box2{
+    width: 400px;
+    height:240px;
+    background-repeat: no-repeat;
+    
+   
+    
+
+}
+.box1{
+    height: 249px;
+    width: 850px;
+   background-color: white;
+}
+.tr{
+    height: 240px;
+    width: 400px;
+}
+.navigation{
+    position:fixed;
+    width: 100%;
+    top: 5px;
+}

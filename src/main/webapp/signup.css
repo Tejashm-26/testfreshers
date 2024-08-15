@@ -1,0 +1,27 @@
+.sign{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color:beige;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+    border-color: rgb(49, 9, 226);
+}
+.up{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.t{
+    height: 20px;
+    width: 190px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+    border-color: black;
+}
+body{
+    background-image: url('./cow2.jpg');
+}

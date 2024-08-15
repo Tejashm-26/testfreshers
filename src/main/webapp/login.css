@@ -1,0 +1,43 @@
+.inputs{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color:beige;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+    border-color: rgb(49, 9, 226);
+}
+.input{
+    height: 30px;
+    width: 190px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+    border-color: black;
+
+}
+.foorm{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: all;
+    transition-timing-function: ease-in;
+    transition-duration: 5s;
+}
+.aaa{
+    transition: all;
+    transition-timing-function: ease-in;
+    transition-duration: 10s;
+
+}
+body{
+    background-image: url('./milk.avif');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255,0,5);
+    
+}
+
